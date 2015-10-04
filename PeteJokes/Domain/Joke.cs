@@ -25,7 +25,9 @@ namespace PeteJokes.Domain
         [StringLength(255)]
         public string Location { get; set; }
 
-        public DbGeography Coordinates { get; set; }
+        public decimal? Latitude { get; set; }
+
+        public decimal? Longitude { get; set; }
 
         public int UpGoats { get; set; }
 

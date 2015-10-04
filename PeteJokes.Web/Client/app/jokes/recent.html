@@ -1,0 +1,24 @@
+﻿<div layout="row" flex>
+    <div ui-view></div>
+    <div layout="column" flex id="content">
+        <md-content layout="column" flex class="md-padding">
+            <md-card ng-repeat="joke in vm.jokes">
+                <md-card-content>
+                    <h2 class="md-title">{{ joke.Text }}</h2>
+                    <p>
+                        <span ng-if="joke.Location">{{ joke.Location }} - </span>
+                        <span>{{ joke.ToldOn | amTimeAgo }}</span>
+                    </p>
+                </md-card-content>
+                <div class="md-actions" layout="row" layout-align="end center">
+                    <md-button class="md-raised md-primary">
+                        <i class="fa fa-arrow-up"></i> Upgoat
+                    </md-button>
+                    <md-button class="md-raised md-accent">
+                        <i class="fa fa-arrow-down"></i> Downboat
+                    </md-button>
+                </div>
+            </md-card>
+        </md-content>
+    </div>
+</div>

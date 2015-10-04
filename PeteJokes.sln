@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeteJokes.Database", "PeteJokes.Database\PeteJokes.Database.csproj", "{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{14B95D7F-B90F-49DD-A395-7A8E7829A58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B95D7F-B90F-49DD-A395-7A8E7829A58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B95D7F-B90F-49DD-A395-7A8E7829A58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

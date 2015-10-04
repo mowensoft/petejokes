@@ -2,15 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>hashtag pete jokes</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" />
         <link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="Client/assets/site.css" />
     </head>
-    <body ng-app="AppController as vm">
-        <md-toolbar class="md-tall md-accent">
-            <h2 class="md-toolbar-tools">
-                <span>#<strong>pete</strong>jokes</span>
-            </h2>
+    <body ng-app="PeteJokes">
+        <md-toolbar layout="row">
+            <div class="md-toolbar-tools">
+                <h1>#<strong>pete</strong>jokes</h1>
+                <span flex></span>
+                <md-button class="md-raised md-accent md-padding"aria-label="Add joke">
+                    <i class="fa fa-plus"></i> Add joke
+                </md-button>
+            </div>
         </md-toolbar>
-        
+        <div ui-view></div>
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/angular/angular.js"></script>
@@ -18,5 +25,13 @@
         <script src="bower_components/angular-aria/angular-aria.js"></script>
         <script src="bower_components/angular-material/angular-material.js"></script>
         <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/momentjs/moment.js"></script>
+        <script src="bower_components/angular-moment/angular-moment.js"></script>
+
+        <script src="Client/app/app.js"></script>
+        <script src="Client/app/app.config.js"></script>
+        <script src="Client/app/app.routes.js"></script>
+        <script src="Client/app/jokes/jokes.service.js"></script>
+        <script src="Client/app/jokes/jokes.controller.js"></script>
     </body>
 </html>
