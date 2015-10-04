@@ -17,6 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C59F4191-44B5-4D22-89F9-A8A16DC03586}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeteJokes.Database", "PeteJokes.Database\PeteJokes.Database.csproj", "{FD5EA8DB-DEB3-47E6-B9B6-87B37B642ED3}"
